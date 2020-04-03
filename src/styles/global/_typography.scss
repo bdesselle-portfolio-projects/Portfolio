@@ -1,0 +1,52 @@
+body{
+    font-size: 1.6rem;
+    color: #646F79;
+}
+
+.heading{
+    color: #353A47;
+    font-size: 3rem;
+    margin-bottom: 4rem;
+}
+
+.heading-secondary{
+    color: #2A4660;
+    font-size: 2.4rem;
+    margin-bottom: 2rem;
+}
+
+p{
+    line-height: 2.4rem;
+}
+
+span.highlight{
+    color: $color-primary;
+    font-weight: 500;
+}
+
+.link{
+    color: $color-primary;
+    text-decoration: none;
+    &:hover {
+        color: $color-link;
+    }
+
+    i{
+        margin-right: .5rem;
+    }
+
+    &--bold{
+        font-weight: 500;
+    }
+    &--inactive{
+        pointer-events: none;
+        color: rgba($color-primary, .5);
+    }
+}
+
+.small-section-title{
+    color: #2A4660;
+    font-size: 1.8rem;
+    margin-bottom: 1.5rem;
+    font-weight: 600;
+}
